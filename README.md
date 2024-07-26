@@ -18,5 +18,15 @@ Ce projet est une application de calendrier développée avec React et Vite. L'a
 1. Clonez le repository :
 
 ```bash
-git clone https://github.com/votre-utilisateur/votre-repository.git
+git clone https://github.com/alilodzic/calendar-app.git
 cd calendar-app
+
+npm install
+# ou
+yarn install
+
+npm run dev
+# ou
+yarn dev
+
+http://127.0.0.1:5173/
