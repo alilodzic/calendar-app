@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.slot {
+  cursor: pointer;
+}
+.slot div:hover {
+  background-color: black !important;
+  color: white;
+}
+.slot div {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #22313f;
+}
+
+.day {
+  padding: 0 10px;
+  min-width: 70px;
+}

@@ -1,20 +1,8 @@
-# calendar-app reactJs
+# React + Vite
 
-## Description
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Ce projet est une application de calendrier développée avec React et Vite. L'application affiche un calendrier de 7 jours à partir du jour actuel et récupère des créneaux horaires via une API. Les utilisateurs peuvent naviguer entre les semaines en utilisant des flèches.
+Currently, two official plugins are available:
 
-## Installation
-
-### Prérequis
-
-- Node.js (version 14 ou supérieure)
-- npm ou yarn
-
-### Étapes d'installation
-
-1. Clonez le repository :
-
-```bash
-git clone https://github.com/votre-utilisateur/votre-repository.git
-cd calendar-app
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
